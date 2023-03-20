@@ -47,5 +47,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string> Required to discover local devices</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_http.tcp</string>
+	</array>
 </dict>
 </plist>

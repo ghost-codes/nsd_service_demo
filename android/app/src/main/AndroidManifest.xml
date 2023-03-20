@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nsd_test">
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
    <application
         android:label="nsd_test"
         android:name="${applicationName}"
